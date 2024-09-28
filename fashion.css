@@ -1,0 +1,32 @@
+.heading{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 80px;
+}
+.productcard img { 
+    object-fit: cover;
+    flex: 1 1 300px;
+    
+}
+.products img{
+    height: 300px;
+
+}
+.product-info{
+    background-color: bisque;
+    padding: 0px;
+    border-radius: 10px;
+    flex-grow: 1;
+}
+.products img:hover{
+    height: 400px;
+}
+
